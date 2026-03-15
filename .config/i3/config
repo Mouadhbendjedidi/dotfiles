@@ -14,7 +14,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --xrender-sync-fence
 exec --no-startup-id dunst -config "$HOME/.config/dunst/dunstrc"
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec_always feh --bg-scale ~/wallpapers/buildings.jpg
+exec_always feh --bg-scale ~/wallpapers/3d-model.jpg
 exec_always --no-startup-id setxkbmap -model pc105 -layout us,ara -variant ,qwerty_digits -option grp:rctrl_rshift_toggle
 # exec_always autotiling
 

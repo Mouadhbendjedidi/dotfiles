@@ -63,7 +63,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'lsd $realpath'
 # Aliases
 alias ls='lsd -a'
 alias vim='nvim'
-alias c='clear'
 
 # Shell integrations
 eval "$(fzf --zsh)"
